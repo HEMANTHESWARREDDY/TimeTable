@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time-Table</title>
+    <style>
+        table,th,td{
+            border: 2px solid black;
+            text-align: center;
+        }
+        td{
+            width: 120px;
+        }
+        #break,#lunch{
+            font-size: large;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>TIME-TABLE</h1>
+    <table cellspacing="0" align="center">
+    <tr>
+        <th colspan="11" style="font-size: large;">Department of ACSE</th>
+    </tr>
+    <tr>
+        <th colspan="11" style="background-color: rgb(46, 170, 46);font-size: large;">III AIML SECTION-B</th>
+    </tr>
+            <tr align="center" height="50">
+                <th >Day/Hour</th>
+                <th>1<br>08:15-9:10</th>
+                <th>2<br>9:10-10:05</th>
+                <th>10:05-10:20</th>
+                <th>3<br>10:20-11:15</th>
+                <th>4<br>11:15-12:10</th>
+                <th>5<br>12:10-01:05</th>
+                <th>01:05-02:00</th>
+                <th>6<br>02:00-02:55</th>
+                <th>7<br>02:55-03:50</th>
+                <th>8<br>03:50-04:45</th>
+            </tr>
+            <tr align="center" height="50" >
+                <td ><b>MON</b></td>
+                <td><b>MAD 608</b></td>
+                <td><b>WT 608</b></td>
+                <td id="break" rowspan="6" style="background-color: rgb(243, 184, 76);"><b>B<br><br>R<br><br>E<br><br>A<br><br>K</b></td>
+                <td colspan="3" style="color: red;"><b>CRT Traning 601</b></td>
+                <td id="lunch" rowspan="6" style="background-color: rgb(243, 184, 76);"><b>L<br><br>U<br><br>N<br><br>C<br><br>H</b></td>
+                <td colspan="2"><b>MAD(P) 605</b></td>
+                <td><b>***</b></td>
+            </tr>
+            <tr align="center" height="50" >
+                <td><b>TUE</b></td>
+                <td colspan="2"><b>MAD(P) 605</b></td>
+                <td colspan="2"><b>WT(P) 606</b></td>
+                <td><b>FIP 606</b></td>
+                <td colspan="2" style="color: rgb(34, 158, 235);"><b>Minor/Honor</b></td>
+                <td><b>***</b></td>
+            </tr>
+            <tr align="center" height="50" >
+                <td><b>WED</b></td>
+                <td colspan="2" style="color: rgb(34, 158, 235);"><b>Minor/Honor</b></td>
+                <td colspan="3"  style="color: red;"><b>CRT Traning 501</b></td>
+                <td colspan="2"><b>FKP(P) 604</b></td>
+                <td><b>***</b></td>
+            </tr>
+            <tr align="center" height="50" >
+                <td><b>THU</b></td>
+                <td><b>WT 501</b></td>
+                <td><b>FIP 501</b></td>
+                <td><b>MAD 501</b></td>
+                <td colspan="2"><b>RL 501</b></td>
+                <td colspan="2" style="color: rgb(34, 158, 235);"><b>Minor/Honor</b></td>
+                <td><b>***</b></td>
+            </tr>
+            <tr align="center" height="50" >
+                <td><b>FRI</b></td>
+                <td colspan="2" style="color: rgb(33, 177, 33);"><b>QA&LR 601</b></td>
+                <td colspan="3"  style="color: red;"><b>CRT Traning 607</b></td>
+                <td colspan="2"><b>RL 501</b></td>
+                <td><b>IDP 604</b></td>
+            </tr>
+            <tr align="center" height="50" >
+                <td><b>SAT</b></td>
+                <td colspan="2" style="color: rgb(33, 177, 33);"><b>QA&LR 601</b></td>
+                <td colspan="3"  style="color: red;"><b>CRT Traning 605</b></td>
+                <td colspan="2"><b>WT 606</b></td>
+                <td><b>IDP 606</b></td>
+            </tr>
+    </table>
+</body>
+</html>
